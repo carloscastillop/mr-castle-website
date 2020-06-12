@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Title from siteMetadata test test test2`,
+  },
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-transformer-json`
+  ],
 }
